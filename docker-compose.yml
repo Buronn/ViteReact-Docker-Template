@@ -1,0 +1,14 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend/app/src:/app/src
+      - ./frontend/app/public:/app/public
+      - ./frontend/app/package.json:/app/package.json
+      - ./frontend/app/index.html:/app/index.html
+    env_file:
+      - .env
