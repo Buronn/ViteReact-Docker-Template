@@ -20,8 +20,6 @@ This will start the development server on `localhost:3000`. You can then start e
 - React for building user interfaces
 - Docker support for easy deployment
 - Automatic site reloading for faster iteration
-- ESLint and Prettier for consistent code style
-- Configurable development and production environments
 
 ## Feedback and contributions
 
