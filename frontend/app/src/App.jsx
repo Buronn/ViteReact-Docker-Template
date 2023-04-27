@@ -33,7 +33,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
-      <h5>Repository</h5>
+      <a href="https://github.com/Buronn/ViteReact-Docker-Template 
+      " target="_blank">Github</a>
     </>
   )
 }
