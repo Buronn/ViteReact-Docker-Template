@@ -12,7 +12,7 @@ To use this starter kit, simply clone the repository and run:
 docker-compose up
 ```
 
-This will start the development server and automatically open the application in your default browser. You can then start editing the code and see the changes reflected in the browser as you go.
+This will start the development server on `localhost:3000`. You can then start editing the code and see the changes reflected in your browser as you go.
 
 ## Features
 
@@ -20,8 +20,6 @@ This will start the development server and automatically open the application in
 - React for building user interfaces
 - Docker support for easy deployment
 - Automatic site reloading for faster iteration
-- ESLint and Prettier for consistent code style
-- Configurable development and production environments
 
 ## Feedback and contributions
 
