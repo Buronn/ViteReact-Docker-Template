@@ -1,13 +1,13 @@
-FROM node:18.2.0-bullseye-slim
+FROM oven/bun:1.0
 
 WORKDIR /app
 
 COPY ./app/package.json ./
 
-RUN npm install
+RUN bun install
 
 COPY ./app .
 
 EXPOSE 3000
 
-CMD npm run dev
+CMD bun run dev
